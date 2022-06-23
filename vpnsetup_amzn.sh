@@ -319,8 +319,6 @@ conn shared
   left=%defaultroute
   leftid=$public_ip
   right=%any
-  rightid=@ipsec
-  aggressive=yes
   encapsulation=yes
   authby=secret
   pfs=no

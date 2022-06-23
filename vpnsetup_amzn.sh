@@ -318,6 +318,7 @@ config setup
 conn shared
   left=%defaultroute
   leftid=$public_ip
+  leftgroups=ipsec
   right=%any
   encapsulation=yes
   authby=secret
